@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  
+    <div ng-controller="HelloController as ctrl">
+      <button ng-click="ctrl.sayHello()" >
+        Say Hello !
+      </button>
+      {{ctrl.text}}
+    </div>
+  
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
+
+    <!-- ECMAScript 2015 compiler -->
+    <script src="https://google.github.io/traceur-compiler/bin/traceur.js"></script>
+    
+    <!-- Bootstrap.js finds script tags with type module and compiler them using the interfaces provided by traceur.js -->
+    <script src="https://google.github.io/traceur-compiler/src/bootstrap.js"></script>
+ 
+    <script type="module" src="app.js"></script>
+
+</body>
+
+</html>
