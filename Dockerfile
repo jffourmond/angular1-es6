@@ -15,8 +15,6 @@ ENV APACHE_LOG_DIR /var/log/apache2
 # Copies the source code to Apache's default directory
 COPY * /var/www/html/
 
-EXPOSE 80
-
 # Runs Apache when the container starts
 CMD ["/usr/sbin/apache2", "-DFOREGROUND"]
 
