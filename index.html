@@ -11,16 +11,16 @@
     </div>
   
     <!-- Angular -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
+    <script src="lib/angular-1.4.7.js"></script>
 
     <!-- ECMAScript 2015 compiler -->
-    <script src="https://google.github.io/traceur-compiler/bin/traceur.js"></script>
+    <script src="lib/traceur-0.0.103.js"></script>
     
-    <!-- Bootstrap.js finds script tags with type module and compiler them using the interfaces provided by traceur.js -->
-    <script src="https://google.github.io/traceur-compiler/src/bootstrap.js"></script>
-	
 	<!-- SystemJS module loader -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.21/system.js"></script>	
+	<script src="lib/system-0.19.21.src.js"></script>		
+	
+    <!-- Bootstrap.js finds script tags with type module and compiler them using the interfaces provided by traceur.js -->
+    <script src="lib/bootstrap.js"></script>
 
     <script type="module" src="app.js"></script>
 
